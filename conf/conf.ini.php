@@ -3,4 +3,4 @@
     date_default_timezone_set('America/Lima');
 
     define("APP_NAME","SGSI");
-    define("APP_AUTHOR","pilmee");
+    define("APP_AUTHOR","Juanpe");
