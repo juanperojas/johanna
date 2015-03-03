@@ -1,2 +1,2 @@
 # johanna
-Sistema para tesis SGSI(Sistema de Gestion de la Seguridad Informatica)
+Sistema para tesis SGSI(Sistema de Gestión de la Seguridad Informática)
