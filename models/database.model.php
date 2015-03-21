@@ -12,7 +12,7 @@
     define("DATABASE_HOST","localhost");
     define("DATABASE_NAME","sgsi");
     define("DATABASE_USER","postgres");
-    define("DATABASE_PASSWORD","clave_postgres");
+    define("DATABASE_PASSWORD","991682");
 
 class Database extends PDO{
 

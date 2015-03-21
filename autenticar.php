@@ -9,8 +9,11 @@
         $objSistema = new Sistema();
         $query = $objSistema->AutenticarUsuario($usuario,$clave);
 
+        echo $query->rowCount();
+
         if($query->rowCount() > 0){
             $reg = $query->fetchObject();
+            echo "<br />" + $reg->activo;
             if($reg->activo){
                 $_SESSION["login"] = true;
                 $_SESSION["user"] = "Administrador del Sistema";
@@ -19,7 +22,8 @@
             }else{
                 header("location: index.php?login=false");
             }
+        } else{
+            header("location: index.php?login=false");
         }
-        
+
     }
-    
